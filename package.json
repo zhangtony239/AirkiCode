@@ -1,8 +1,8 @@
 {
 	"name": "roo-cline",
-	"displayName": "Roo Code (prev. Roo Cline)",
+	"displayName": "Airki Code",
 	"description": "A whole dev team of AI agents in your editor.",
-	"publisher": "RooVeterinaryInc",
+	"publisher": "RooVeterinaryIc",
 	"version": "3.8.6",
 	"icon": "assets/icons/rocket.png",
 	"galleryBanner": {
@@ -13,11 +13,11 @@
 		"vscode": "^1.84.0"
 	},
 	"author": {
-		"name": "Roo Vet"
+		"name": "zhangtony239"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/RooVetGit/Roo-Code"
+		"url": "https://github.com/zhangtony239/AirkiCode"
 	},
 	"homepage": "https://github.com/RooVetGit/Roo-Code",
 	"categories": [
@@ -42,7 +42,9 @@
 		"ai",
 		"llama",
 		"roo code",
-		"roocode"
+		"roocode",
+		"airki code",
+		"airkicode",
 	],
 	"activationEvents": [
 		"onLanguage",
@@ -54,7 +56,7 @@
 			"activitybar": [
 				{
 					"id": "roo-cline-ActivityBar",
-					"title": "Roo Code",
+					"title": "Airki Code",
 					"icon": "$(rocket)"
 				}
 			]
@@ -111,47 +113,47 @@
 			},
 			{
 				"command": "roo-cline.explainCode",
-				"title": "Roo Code: Explain Code",
+				"title": "Airki Code: Explain Code",
 				"category": "Roo Code"
 			},
 			{
 				"command": "roo-cline.fixCode",
-				"title": "Roo Code: Fix Code",
+				"title": "Airki Code: Fix Code",
 				"category": "Roo Code"
 			},
 			{
 				"command": "roo-cline.improveCode",
-				"title": "Roo Code: Improve Code",
+				"title": "Airki Code: Improve Code",
 				"category": "Roo Code"
 			},
 			{
 				"command": "roo-cline.addToContext",
-				"title": "Roo Code: Add To Context",
+				"title": "Airki Code: Add To Context",
 				"category": "Roo Code"
 			},
 			{
 				"command": "roo-cline.terminalAddToContext",
-				"title": "Roo Code: Add Terminal Content to Context",
+				"title": "Airki Code: Add Terminal Content to Context",
 				"category": "Terminal"
 			},
 			{
 				"command": "roo-cline.terminalFixCommand",
-				"title": "Roo Code: Fix This Command",
+				"title": "Airki Code: Fix This Command",
 				"category": "Terminal"
 			},
 			{
 				"command": "roo-cline.terminalExplainCommand",
-				"title": "Roo Code: Explain This Command",
+				"title": "Airki Code: Explain This Command",
 				"category": "Terminal"
 			},
 			{
 				"command": "roo-cline.terminalFixCommandInCurrentTask",
-				"title": "Roo Code: Fix This Command (Current Task)",
+				"title": "Airki Code: Fix This Command (Current Task)",
 				"category": "Terminal"
 			},
 			{
 				"command": "roo-cline.terminalExplainCommandInCurrentTask",
-				"title": "Roo Code: Explain This Command (Current Task)",
+				"title": "Airki Code: Explain This Command (Current Task)",
 				"category": "Terminal"
 			}
 		],
@@ -239,7 +241,7 @@
 			]
 		},
 		"configuration": {
-			"title": "Roo Code",
+			"title": "Airki Code",
 			"properties": {
 				"roo-cline.allowedCommands": {
 					"type": "array",

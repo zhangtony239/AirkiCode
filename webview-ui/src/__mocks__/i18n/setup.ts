@@ -23,11 +23,16 @@ const translations: Record<string, Record<string, any>> = {
 			greeting: "¿Qué puede hacer Roo por ti?",
 		},
 	},
+	cn: {
+		chat: {
+			greeting: "有何吩咐，Tony？",
+		}
+	}
 }
 
 // Initialize i18next for React
 i18next.use(initReactI18next).init({
-	lng: "en",
+	lng: "cn",
 	fallbackLng: "en",
 	debug: false,
 	interpolation: {
@@ -42,6 +47,11 @@ i18next.use(initReactI18next).init({
 		es: {
 			chat: translations.es.chat,
 		},
+		cn: {
+			chat: translations.cn.chat,
+			settings: translations.cn.settings,
+			common: translations.cn.common,
+		}
 	},
 })
 

@@ -30,7 +30,7 @@ export const SettingsFooter = ({
 				reddit.com/r/RooCode
 			</VSCodeLink>
 		</p>
-		<p className="italic">Roo Code v{version}</p>
+		<p className="italic">Airki Code v{version}</p>
 		<div className="mt-4 mb-4">
 			<div>
 				<VSCodeCheckbox
@@ -48,7 +48,7 @@ export const SettingsFooter = ({
 						marginTop: "5px",
 						color: "var(--vscode-descriptionForeground)",
 					}}>
-					Help improve Roo Code by sending anonymous usage data and error reports. No code, prompts, or
+					Help improve Airki Code by sending anonymous usage data and error reports. No code, prompts, or
 					personal information is ever sent. See our{" "}
 					<VSCodeLink
 						href="https://github.com/RooVetGit/Roo-Code/blob/main/PRIVACY.md"
